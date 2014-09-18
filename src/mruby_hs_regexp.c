@@ -66,7 +66,7 @@ static mrb_value
 hs_regexp_initialize(mrb_state *mrb, mrb_value self)
 {
     char *str;
-    int len;
+    mrb_int len;
     mrb_value source, flag_value;
     unsigned char flag;
 
